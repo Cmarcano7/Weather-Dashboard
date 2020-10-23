@@ -1,0 +1,52 @@
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+}
+
+#currentDay #currentTime { 
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.weather {
+    margin-left: 20px;
+}
+
+.invis {
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+}
+
+#weatherCars{
+    margin-bottom: 10px;
+}
+.citiesButton {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+#todayIcon {
+    background-color: aqua;
+}
+#jumboHead {
+    background-color: aqua;
+}
+.color {
+    background-color: #FD795B;
+}
+.severe {
+    background-color: red;
+}
+.favorable {
+    background-color: green;
+}
+.moderate {
+    background-color: yellow;
+}
